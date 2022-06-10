@@ -2,7 +2,7 @@
 
 Python 3.6 32-bit version seems to be compatible with most versions of LabVIEW.
 
-The bit version for Python and LabVIEW need to be the same. There is an in-built VI that lets us find the LabVIEW bit version. It can also be read off of the start-up window when LabVIEW is opened for the first time. Open the Windows Command Prompt and check the python version by `python --version` and it should read 3.6.x. It should also read the bit number.
+The bit version for Python and LabVIEW need to be the same. There is an in-built VI that lets us find the LabVIEW bit version. It can also be read off of the start-up window when LabVIEW is opened for the first time. After installing Python, open the Windows Command Prompt and check the version by `python --version` and it should read 3.6.x. It should also read the bit number.
 
 Install packages using pip on cmd, example `pip install numpy` to install numpy.
 
